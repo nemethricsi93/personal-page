@@ -1,0 +1,95 @@
+/*common styles*/
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2vw;
+    color:black;
+    text-align:center;
+    line-height: 120%;
+}
+
+nav, .navigation {
+    text-align:right;
+}
+
+.container {
+    height:100vh;    
+    width:100%;
+}
+
+.content {
+    height:80vh;
+    width:100%;
+}
+
+.navigation {
+    height:20vh;
+    width:100%;
+    clear:both;
+}
+
+.small-column, .wide-column {
+    float:left;
+}
+
+.small-column {
+    width:40%;
+}
+
+.wide-column {
+    width:60%;
+}
+
+h1, h2 {
+    line-height:1.5;
+}
+
+h1 {
+    font-size:5vw;
+}
+
+h2 {
+    font-size:3vw;
+}
+
+/*specific styles*/
+
+#photo, #welcome-text {
+    height:40%;
+    float:left;
+}
+
+#photo {
+    width:40%;
+}
+
+#photo img {
+    height:100%;
+    width:auto;
+    border-radius:50%;
+}
+
+#welcome-text {
+    width:60%;
+}
+
+#short-intro {
+    clear:both;
+}
+
+/*page backgrounds*/
+#intro {
+
+}
+
+#eng {
+    background-color:lightgrey;
+}
+
+#dev {
+    background-color:tomato;
+}
+
+#private {
+    background-color:aqua;
+}
