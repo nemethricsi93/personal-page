@@ -1,9 +1,9 @@
 /*common styles*/
 body {
-    background-color: white;
+    background-color: F9F7F7;
     font-family: Arial, Helvetica, sans-serif;
     font-size:1.5vw;
-    color:black;
+    color: #3F72AF;
     text-align:center;
     line-height: 120%;
 }
@@ -13,18 +13,14 @@ nav, .navigation {
 }
 
 .container {
-    height:auto;    
-    width:100%;
-}
-
-.content, .navigation {
-    width:90%;
-    margin:0 auto;
+    width: calc(100vw-10px);
+    margin: 0 auto;
 }
 
 .content {
-    height:80%;
-    padding:2%;
+    height:100%;
+    box-sizing: border-box;
+    padding:10px;
 }
 
 .navigation {
@@ -60,44 +56,60 @@ h3 {
     font-size:1.5vw;
 }
 
-/*specific styles*/
+strong {
+    color: #112D4E;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
-#photo, #welcome-text {
-    height:40%;
-    float:left;
+#header {
+    background-color: #3F72AF;
+    color: #F9F7F7;
+    height: 20vw;
 }
 
 #photo {
-    width:40%;
+    height: 100%;
+    width: 40%;
+    display: table-cell;
+    text-align:center;
+}
+
+#photo, #welcome-text {
+    float:left;
 }
 
 #photo img {
-    height:auto;
-    width:inherit;
+    height: 100%;
     border-radius:50%;
+    vertical-align: middle;
 }
 
+#photo img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+  }
+
 #welcome-text {
+    height: 100%;
     width:60%;
+    text-align:left;
+    display:table;
+}
+
+#welcome-text h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#welcome-text strong {
+    font-size: 3.5vw;
 }
 
 #short-intro {
     clear:both;
 }
 
-/*page backgrounds*/
-#intro {
-
-}
-
-#eng {
-    background-color:lightgrey;
-}
-
-#dev {
-    background-color:tomato;
-}
-
-#private {
-    background-color:aqua;
+#eng, #private {
+    background-color: #DBE2EF;
 }
