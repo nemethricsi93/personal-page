@@ -62,6 +62,10 @@ strong {
     text-transform: uppercase;
 }
 
+li {
+    text-align:right;
+}
+
 #header {
     background-color: #3F72AF;
     color: #F9F7F7;
