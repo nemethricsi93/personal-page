@@ -1,135 +1,123 @@
 <!DOCTYPE html>
 <html lang="hu-HU">
-
 <head>
-  <!-- meta -->
   <meta charset="utf-8">
-  <!--- SEO -->
-  <title>Welcome, my name is Richárd NÉMETH!</title> 
-  <meta name="keywords" content="Richárd, Németh">
-  <meta name="description" content="Personal page of Richárd Németh">
-  <meta name="author" content="Richárd Németh">
-  <!-- CSS reset -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-  <!-- Styles -->
+  <!-- seo -->
+  <title>Németh Richárd</title>
+  <meta name="keywords" content="Németh Richárd, Gépészmérnök, Karbantartó, szakmérnök, Webfejlesztő">
+  <meta name="description" content="Németh Richárd Gépészmérnök és Karbantartó szakmérnök bemutatkozó oldala.">
+  <meta name="author" content="Németh Richárd">
+  <!-- css -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <!-- JavaScript -->
-  <!-- LinkedIn embedding -->
-  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <!-- boostrap 5.2 -->
+  <link href="https://getbootstrap.com/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://getbootstrap.com/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <!-- fontaweseome ikon -->
+  <script src="https://kit.fontawesome.com/4af5542513.js" crossorigin="anonymous"></script>
 </head>
-  
 <body>
-  <!-- Header -->
-  <div id="header" class="container">
-    <!-- Content -->
-    <div class="content">
-      <!-- Photo -->
-      <div id="photo">
-          <img src="images/richard_NEMETH.jpg" alt="photo of Richárd Németh">
-      </div>
-      <!-- Welcome text-->
-      <div id="welcome-text">
-          <h1>Welcome, <br>I'm <strong>Richárd Németh!</strong></h1>    
-      </div>
-    </div>
+  <!-- fejléc -->
+  <!--
+  <div class="container-flex">
+    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom" >
+      
+	  <a href="http://www.nemeth-richard.hu" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <span class="fs-4 px-4">Németh Richárd</span>
+      </a>
+	  
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#social" class="nav-link">Social</a></li>
+      </ul>
+    </header>
   </div>
+  -->
+  <!-- fejléc vége -->
 
-  <!-- Introduction -->
-  <div id="intro" class="container">
-    <div class="content">
-      <!-- Short introduction-->
-      <div id="short-intro">
-        <p>Short introduction paragraph.</p>
-      </div>
-    </div>
-    <!-- Navigation -->
-    <div class="navigation">
-      <nav>
-          <ul>
-            <!-- link to Engineer -->
-            <li>Let me tell you my story on <a href="#eng">how I became a Mechanical Engineer...</a></li>
-            <!-- link to Webdeveloper -->
-            <li>Let me tell you about my <a href="#dev">future self as a Webdeveloper...</a></li>
-            <!-- link to Personal life -->
-            <li>Let's call it a day, I show you <a href="#private">what I do after work...</a></li>
-          </ul>
-        </nav>
-    </div>
-  </div>
-
-
-  <!-- Engineer -->
-  <div id="eng" class="container">
-    <!-- content -->
-    <div class="content">
-        <h1>Me as an <strong>Engineer.</strong></h1>
-        <!-- left column -->
-        <div class="small-column">
-            <h3>Check out my professional life as an Enginner on Linkedin:</h3>
-            <!-- Linkedin embedding -->
-            <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="nemethricsi" data-version="v1">
-              <a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/nemethricsi?trk=profile-badge">Richárd Németh</a>
-            </div>
-              
-        </div>
-        <!-- right column -->
-        <div class="wide-column">
-            <p>Some text about me as an enginner.</p>
-            <!-- keywords -->
-            <h3 class="keywords">#engineer; #mechanical-engineer; #maintenance-engineer; #maintenance; #diagnostics; #TPM; #Lean</h3>
-        </div>
-    </div>
-    <!-- navigation to Webdeveloper-->
-    <div class="navigation">
-        <a href="#dev"><h3>Next I show you my Webdeveloper self...</h3></a>
-    </div>
-  </div>
-
-  <!-- Webdeveloper -->
-  <div id="dev" class="container">
-    <!-- content -->
-    <div class="content">
-        <h1>Me as a <strong>Webdeveloper.</strong></h1>
-        <!-- left column -->
-        <div class="wide-column">
-            <p>Some text about me as a Webdeveloper.</p>
-            <!-- keywords -->
-            <h3 class="keywords">#webdeveloper; #programmer; #html; #css; #javascript</h3>
-        </div>   
-        <!-- right column -->
-        <div class="small-column">
-            <h3>Check out my webdeveloper learning curv on Github:</h3>
-        </div>
-    </div>
-    <!-- navigation to Webdeveloper-->
-    <div class="navigation">
-        <a href="#private"><h3>Let's relax a bit, I show you what I do after work...</h3></a>
-    </div>
-  </div>
-
-  <!-- Private -->
-  <div id="private" class="container">
-    <!-- content -->
-    <div class="content">
-        <h1>Me as a <strong>Private person.</strong></h1>
-        <!-- left column -->
-        <div class="small-column">
-            <h3>Check me out in my freetime on FB or Instagram:</h3>
-        </div>
-        <!-- right column -->
-        <div class="wide-column">
-            <p>Some text about me as a privte person.</p>
-            <!-- keywords -->
-            <h3 class="keywords">#bbq-pitmaster; #car-simulators; #rc-planes; #sailing;</h3>
-        </div>
-    </div>
-    <!-- navigation up-->
-    <div class="navigation">
-        <a href="#intro"><h3>Let's start from the beginning...</h3></a>
-    </div>
-  </div>
-
-</body>
+  <!-- tartalom -->
+  <div class="container">
   
+    <!-- bemutatkozás -->
+	<div id="about-me" class="container px-4 py-4">
+      <div class="row p-4 py-lg-5 align-items-center rounded-3 border shadow-lg">
+        <div class="col-lg-8 p-3">
+          <h1 class="display-5 fw-bold lh-1 mb-4">Üdvözöllek, <br>Németh Richárd vagyok!</h1>
+          <p class="lead mb-4">
+		    Gépészmérnök, Műszaki diagnosztikai és karbantartó szakmérnök, a Lean és TPM hírvivője, wannabe webfejlesztő / <a href="https://codeberryschool.com/hu/" target="_blank" class="text-info" title="Tanulj a CodeBerry-vel, nekem bejött!">CodeBerry tanonc!</a>
+		  </p>
+		  <p>
+		    <span class="label label-default p-1">#Gépészmérnök</span>
+			<span class="label label-default p-1">#Karbantartó mérnök</span>
+			<span class="label label-default p-1">#TPM</span>
+			<span class="label label-default p-1">#Lean</span>
+			<span class="label label-default p-1">#Webfejlesztő</span>
+			<span class="label label-default p-1">#CodeBerry</span>
+			<span class="label label-default p-1">#HTML5</span>
+			<span class="label label-default p-1">#CSS3</span>
+			<span class="label label-default p-1">#Javascipt</span>
+		  </p>
+        </div>
+        <div class="col-lg-4 p-4 overflow-hidden ">
+          <img class="rounded-3" src="http://www.nemeth-richard.hu/img/nemeth-richard.png" alt="Németh Richárd" style="width:100%;">
+        </div>
+      </div>
+    </div>
+    
+	<!-- Social -->
+	<div id="social" class="container px-4 py-4" id="hanging-icons">
+      <h2 class="pb-3 border-bottom mb-4">Social media</h2>
+      <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
+      <!-- Linkedin -->
+	    <div class="col d-flex align-items-start">
+          <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+          </div>
+          <div>
+            <h2>LinkedIn</h2>
+            <p>Ha a tanulmányaim és mérnöki karrierem alakulása érdekel, akkor nézd meg a LinkedIn profilom.</p>
+            <a href="http://www.linkedin.com/in/nemethricsi" target="_blank" class="btn btn-primary">LinkedIn profilom</a>
+          </div>
+        </div>
+	  <!-- Github -->
+        <div class="col d-flex align-items-start">
+          <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="fa-brands fa-github-square fa-lg"></i>
+          </div>
+          <div>
+            <h2>Github</h2>
+            <p>Ha a webfejlesztő portfólióm érdekel, akkor nézd meg a GitHub profilom.</p>
+            <a href="https://github.com/nemethricsi93" target="_blank" class="btn btn-primary">Github profilom</a>
+          </div>
+        </div>
+        <!-- Facebook -->
+		<div class="col d-flex align-items-start">
+          <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <i class="fa-brands fa-facebook-square fa-lg"></i>
+          </div>
+          <div>
+            <h2>Facebook</h2>
+            <p>Ha privátban szeretnél kapcsolatba lépni velem, akkor keress meg a Facebook-on.</p>
+            <a href="https://www.facebook.com/NemethRicsi" target="_blank" class="btn btn-primary">Facebook profilom</a>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- social vége-->
+  </div>
+  <!-- tartalom vége -->
+
+  <!-- lábléc -->
+  <div class="container-flex">
+    <footer class="py-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Top</a></li>
+        <li class="nav-item"><a href="#about-me" class="nav-link px-2 text-muted">About me</a></li>
+        <li class="nav-item"><a href="#social" class="nav-link px-2 text-muted">Social</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy;2022 Németh Richárd,<br>powered by Bootstrap 5.2</p>
+    </footer>
+  </div>
+  <!-- lábléc vége -->
+</body>
 </html>
